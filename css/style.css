@@ -45,7 +45,7 @@ a {
   align-items: center;
   flex-wrap: wrap;
 }
-.review__item {
+.review {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -56,29 +56,29 @@ a {
   border-radius: 8px;
   padding: 20px;
 }
-.item__p {
+.item__text {
   color: rgb(138, 138, 137);
   font-family: sans-serif;
   font-size: 15px;
   font-weight: normal;
 }
-.item__about {
+.item__author {
   display: flex;
   gap: 15px;
   align-items: center;
   justify-content: flex-start;
 }
-.about__img {
+.review__photo {
   border-radius: 50%;
   border: 2px solid orange;
 }
-.list__item-who {
+.review__name {
   margin-bottom: 7px;
   font-weight: bold;
   font-family: sans-serif;
   font-size: 14px;
 }
-.list__item-position {
+.review__role {
   color: rgb(138, 138, 137);
   font-weight: normal;
   font-family: sans-serif;
